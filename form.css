@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: AlmarenaDisplayRegular, sans-serif;
+  /* line-height: 18.4px; */
+}
+.link img {
+  height: 15px;
+  width: 15px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  width: 50%;
+  background: linear-gradient(to bottom, rgba(251, 228, 209, 0.5), rgba(251, 228, 209, 0.2));
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+.body {
+  width: 50%;
+  background-color: rgba(253, 249, 249, 0.5);
+  float: right;
+}
+.logo h2 {
+  margin: 50px;
+}
+.inner {
+  text-align: center;
+  padding: 20px;
+}
+.diploma{
+    padding: 20px;
+}
+.copyright{
+    padding: 20px;
+    font-size: 12px;
+    color: gray;
+}
+.innerlink {
+    padding: 20px;
+}
+.message {
+    padding: 20px 0;
+  font-size: 54px;
+  text-wrap: wrap;
+}
+.bigform {
+  width: 80%;
+  background-color: white;
+  margin: 50px auto;
+  padding-top: 50px;
+}
+.fill, .app{
+    padding: 0 15px;
+}
+form > div {
+  width: 50%;
+  float: left;
+}
+input,
+select {
+  width: 100%;
+  height: 50px;
+  border: 0.5px solid rgb(209, 207, 207);
+  border-radius: 5px;
+}
+.body * :not(h2, a, button) {
+  color: rgb(194, 191, 191);
+}
+.body form label {
+    color: black;
+}
+.policy{
+    font-size: 16px;
+}
+#proceed{
+    display: block;
+    height: 50px;
+    background-color: rgb(16, 16, 182);
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+.proceed {
+    
+    width: 100%;
+}
+form > *{
+    padding: 15px 15px;
+}
+.question{
+    text-align: center;
+}
+.body .logo h2{
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: none;
+}
+@media screen and (max-width: 900px){
+    .header{
+        display: none;
+    }
+    .body{
+        width: 100%;
+        display: block;
+    }
+    .body .logo h2{
+    display:block;
+}
+}

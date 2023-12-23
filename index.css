@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: AlmarenaDisplayRegular, sans-serif;
+}
+.link img {
+  height: 15px;
+  width: 15px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  width: 50%;
+  background: linear-gradient(
+    to bottom,
+    rgba(251, 228, 209, 0.5),
+    rgba(251, 228, 209, 0.2)
+  );
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+.body {
+  width: 50%;
+  background-color: rgba(253, 249, 249, 0.5);
+  float: right;
+  padding: 20px;
+}
+.logo h2 {
+  padding: 50px;
+}
+.inner {
+  text-align: center;
+  padding: 20px;
+}
+.diploma {
+  padding: 20px;
+}
+.copyright {
+  padding: 20px;
+  font-size: 12px;
+  color: gray;
+}
+.innerlink {
+  padding: 20px;
+}
+.message {
+  padding: 20px 0;
+  font-size: 54px;
+  text-wrap: wrap;
+}
+.img {
+  width: 50%;
+  height: auto;
+  margin: 20px auto;
+  text-align: center;
+  border-bottom: 0.5px solid gray;
+}
+.body p {
+  letter-spacing: 1.5px;
+}
+@media screen and (max-width: 800px) {
+  .body,
+  .header {
+    width: 100%;
+  }
+  .img {
+    width: 30%;
+  }
+  .header {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+}
